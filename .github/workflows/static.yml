@@ -33,7 +33,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./lab5"   # or "./lab 5" if you keep the space
+          path: "./lab 5"   # 👈 or "./lab5" if renamed
 
       - name: Deploy to GitHub Pages
         id: deployment
